@@ -59,9 +59,10 @@
     --primart-orangeYellow: hsl(39, 100%, 56%);
     --primary-greenTeal: hsl(166, 100%, 37%);
     --primary-cobaltBlue: hsl(234, 85%, 45%);
-    --neutral-paleBlue: hsl(221, 100%, 96%);
+    --neutral-paleBlue: #ebf1ff;
     --neutral-lightLavender: hsl(241, 100%, 89%);
     --neutral-darkgrayBlue: hsl(224, 30%, 27%);
+    --neutral-veryLightBlue:  #ECF2FF;
   }
   body{
     font-family: var(--hanken);
