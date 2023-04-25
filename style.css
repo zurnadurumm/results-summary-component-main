@@ -127,10 +127,49 @@
     color: var(--neutral-lightLavender);
 
   }
-  .score{
-    display: flex;
+  .second-container{
+    display: grid;
+    gap: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    
+    
+  }
+  .child-container{
+    display: grid;
     gap: 1rem;
-    flex-direction: column;
-    justify-content: center;
+  }
+  .child-item{
+    border:0;
+    border-radius: 0.75rem;
+    display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  .child-item::before{
+    content: '';
+    width: 20px;
+    height: 20px;
+
+    background-image: url("assets/images/icon-memory.svg");
+  }
+  h3{
+    font-size: 1.125rem;
+    color: var(--neutral-darkgrayBlue);
+  }
+  .memory-container{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #FF5555;
+  }
+  .reaction-container{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #FF5555;
+
+  }
+  .verbal-container{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #00BB8F;
+  }
+  .visual-container{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #1125D6;
   }
